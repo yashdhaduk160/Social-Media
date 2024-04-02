@@ -19,7 +19,7 @@ class ViewController2: UIViewController {
 
     @IBAction func btn_next(_ sender: Any) {
         
-        navigatescreen(StoryboardName: "Main", ScreenName: "TabBar", from: self)
+        navigatescreen(StoryboardName: "Main", ScreenName: "LoginVC", from: self)
     }
     
 

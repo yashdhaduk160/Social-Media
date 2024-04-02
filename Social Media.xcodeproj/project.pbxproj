@@ -16,6 +16,8 @@
 		A0831CA02B989EB000195135 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0831C9F2B989EB000195135 /* ChatVC.swift */; };
 		A0831CA22B989EE500195135 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0831CA12B989EE500195135 /* HomeVC.swift */; };
 		A0A906E92BA46A6D00BCF386 /* Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A906E82BA46A6D00BCF386 /* Extention.swift */; };
+		A0C2AF9D2BB6F6370015B001 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C2AF9C2BB6F6370015B001 /* LoginVC.swift */; };
+		A0C2AF9F2BB6F6570015B001 /* SignUPVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C2AF9E2BB6F6570015B001 /* SignUPVC.swift */; };
 		A0DD71E42B986DA7009AE6FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DD71E32B986DA7009AE6FA /* AppDelegate.swift */; };
 		A0DD71E62B986DA7009AE6FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DD71E52B986DA7009AE6FA /* SceneDelegate.swift */; };
 		A0DD71E82B986DA7009AE6FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DD71E72B986DA7009AE6FA /* ViewController.swift */; };
@@ -61,6 +63,8 @@
 		A0831C9F2B989EB000195135 /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
 		A0831CA12B989EE500195135 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		A0A906E82BA46A6D00BCF386 /* Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extention.swift; sourceTree = "<group>"; };
+		A0C2AF9C2BB6F6370015B001 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		A0C2AF9E2BB6F6570015B001 /* SignUPVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUPVC.swift; sourceTree = "<group>"; };
 		A0DD71E02B986DA7009AE6FA /* Social Media.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Social Media.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0DD71E32B986DA7009AE6FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A0DD71E52B986DA7009AE6FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -136,6 +140,8 @@
 				A0DD71E52B986DA7009AE6FA /* SceneDelegate.swift */,
 				A0DD71E72B986DA7009AE6FA /* ViewController.swift */,
 				A0831C972B98900A00195135 /* ViewController2.swift */,
+				A0C2AF9C2BB6F6370015B001 /* LoginVC.swift */,
+				A0C2AF9E2BB6F6570015B001 /* SignUPVC.swift */,
 				A0831C9B2B98957100195135 /* TabBar.swift */,
 				A0831CA12B989EE500195135 /* HomeVC.swift */,
 				A0831C992B98902C00195135 /* ProfileVC.swift */,
@@ -396,6 +402,7 @@
 			files = (
 				A0831CA02B989EB000195135 /* ChatVC.swift in Sources */,
 				A0831CA22B989EE500195135 /* HomeVC.swift in Sources */,
+				A0C2AF9D2BB6F6370015B001 /* LoginVC.swift in Sources */,
 				A0831C9A2B98902C00195135 /* ProfileVC.swift in Sources */,
 				A0831C982B98900A00195135 /* ViewController2.swift in Sources */,
 				A0DD71E82B986DA7009AE6FA /* ViewController.swift in Sources */,
@@ -404,6 +411,7 @@
 				A0831C9E2B9896AC00195135 /* swift.swift in Sources */,
 				A0DD71EE2B986DA7009AE6FA /* Social_Media.xcdatamodeld in Sources */,
 				A0A906E92BA46A6D00BCF386 /* Extention.swift in Sources */,
+				A0C2AF9F2BB6F6570015B001 /* SignUPVC.swift in Sources */,
 				A0831C9C2B98957100195135 /* TabBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
