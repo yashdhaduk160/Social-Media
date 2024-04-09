@@ -764,6 +764,46 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="zMN-9s-z6o">
                                 <rect key="frame" x="30" y="281.66666666666674" width="333" height="487.33333333333326"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="371" id="xeF-Yq-Jmf">
+                                        <rect key="frame" x="0.0" y="50" width="333" height="371"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="xeF-Yq-Jmf" id="Mks-1T-LpO">
+                                            <rect key="frame" x="0.0" y="0.0" width="333" height="371"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vijay-devarakonda-4k" translatesAutoresizingMaskIntoConstraints="NO" id="hVI-ys-LTQ">
+                                                    <rect key="frame" x="5" y="5" width="323" height="286"/>
+                                                </imageView>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kda-Wr-jkj">
+                                                    <rect key="frame" x="146.66666666666666" y="328" width="40" height="37"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="40" id="KUa-Xa-5fD"/>
+                                                        <constraint firstAttribute="height" constant="40" id="rme-3b-04T"/>
+                                                    </constraints>
+                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                    <state key="normal">
+                                                        <imageReference key="backgroundImage" image="heart" catalog="system" renderingMode="hierarchical">
+                                                            <hierarchicalColors>
+                                                                <color systemColor="labelColor"/>
+                                                                <color systemColor="secondaryLabelColor"/>
+                                                                <color systemColor="tertiaryLabelColor"/>
+                                                            </hierarchicalColors>
+                                                        </imageReference>
+                                                    </state>
+                                                </button>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="hVI-ys-LTQ" firstAttribute="top" secondItem="Mks-1T-LpO" secondAttribute="top" constant="5" id="7YL-EB-W0E"/>
+                                                <constraint firstItem="hVI-ys-LTQ" firstAttribute="leading" secondItem="Mks-1T-LpO" secondAttribute="leading" constant="5" id="Fir-Pv-dRf"/>
+                                                <constraint firstAttribute="bottom" secondItem="hVI-ys-LTQ" secondAttribute="bottom" constant="80" id="Txd-Mz-bhG"/>
+                                                <constraint firstItem="kda-Wr-jkj" firstAttribute="centerX" secondItem="Mks-1T-LpO" secondAttribute="centerX" id="c5j-s8-X42"/>
+                                                <constraint firstAttribute="trailing" secondItem="hVI-ys-LTQ" secondAttribute="trailing" constant="5" id="dEu-c1-d0n"/>
+                                                <constraint firstAttribute="bottom" secondItem="kda-Wr-jkj" secondAttribute="bottom" constant="5" id="mdq-YS-qLR"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="0T8-bt-EUq"/>
@@ -806,7 +846,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2Rf-31-CDm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4673" y="-2"/>
+            <point key="canvasLocation" x="4670.9923664122134" y="-2.1126760563380285"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="r1q-96-ZKf">
@@ -1200,20 +1240,20 @@
         <image name="message.fill" catalog="system" width="128" height="114"/>
         <image name="person.crop.circle" catalog="system" width="128" height="123"/>
         <image name="person.crop.circle.fill" catalog="system" width="128" height="123"/>
-        <image name="photo.fill" catalog="system" width="32" height="32"/>
+        <image name="photo.fill" catalog="system" width="128" height="93"/>
         <image name="power" catalog="system" width="127" height="128"/>
         <image name="vijay-devarakonda-4k" width="3000" height="2000"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="secondaryLabelColor">
-            <color red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="tertiaryLabelColor">
-            <color red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.29803921570000003" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.29803921568627451" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
